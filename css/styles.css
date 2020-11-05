@@ -1,0 +1,13 @@
+h1 {
+  font-family: monospace;
+  text-align: center;
+  background-color: #8A9EA0;
+  background-position-x: center;
+}
+h3 {
+  font-size: 16px;
+  line-height: 2em;
+  border-radius: 4px;
+  padding: 4px 18px;
+  box-sizing: border-box;
+}

@@ -8,11 +8,36 @@
 </head>
 <body>
   <div class="container">
-  <h1>Welcome to Pig Dice</h1>
-    <form id="form">
-      <button type="button" class="btn" onClick= "rollDice()">Roll</button>
-    </form>
-    <button type="button" class="btn">Hold</button>
+    <h1>Welcome to Pig Dice</h1>
+    <div class="diceAmount">
+      <p id="dice1"></p>
+      <p id="dice2"></p>
+    </div>
+    <div class ="scores">
+      <p id="p1score-total">0</p>
+      <p id="p2score-total">0</p>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-6">
+        <button class="rollBtn" type="button" id="roll" onclick="rollDice()">Roll!</button><button class ="hold" type="submit">Hold!</button>
+        <div id="output">
+          <div>
+            <h3>Player 1 turn total:<span id="p1turn-total"></span></h3>
+            </div>
+        
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <button class="rollBtn2" type="submit" id="roll2" onclick="rollDice()">Roll!</button><button class ="hold2" type="submit">Hold!</button>
+        <div id="output2">
+          <div>
+            <h3>Player 2 turn total:<span id="p2turn-total"></span></h3>
+          </div>
+        
+        </div>
+      </div>
   </div>
 </body>
 </html>
