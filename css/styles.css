@@ -11,3 +11,11 @@ h3 {
   padding: 4px 18px;
   box-sizing: border-box;
 }
+
+.btn {
+  border-radius: 12px;
+  background-color: lightslategrey;
+  color: whitesmoke;
+  text-align: center;
+  float: center;
+}
