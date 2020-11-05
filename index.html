@@ -19,28 +19,30 @@
       <div class="col-md-6">      
         <p class="Player1"> Player 1</p>
         <img src="img/dice1.png" rel= "A picture of dice">
-        <button class="rollBtn" type="button" id="roll" onclick="rollDice()">Roll!</button><button class ="hold" type="submit">Hold!</button>
+        <button class="rollBtn" type="button" id="roll">Roll!</button>
         <div id="output">
           <div>
-            <h3>Player 1 turn total: <span id="p1turn-total"></span></h3>
+            <h3>Player 1 Turn Total</h3>
+            <p id="p1turn-total"></p>
             </div>
-        
+            <button class ="hold" type="submit">Hold!</button>
         </div>
       </div>
 
       <div class="col-md-6">
         <p class="Player2">Player 2</p>
         <img src="img/dice1.png" rel= "A picture of dice">
-        <button class="rollBtn2" type="submit" id="roll2" onclick="rollDice()">Roll!</button><button class ="hold2" type="submit">Hold!</button>
+        <button class="rollBtn2" type="button" id="roll2">Roll!</button><button class ="hold2" type="submit">Hold!</button>
         <div id="output2">
           <div>
-            <h3>Player 2 turn total:<span id="p2turn-total"></span></h3>
+            <h3>You rolled a:  <span id="p2turn-total"></span></h3>
           </div>
-          <div class="container">
-            <button type="button" class="btn" onClick="nameInput()">Change your Names!</button>
-          </div>
+          <!-- <div class="container">
+            <button type="button" class="btn" onclick="nameInput()">Change your Names!</button>
+          </div> -->
 
           <div class ="scores">
+            <h1>Score Board</h>
             <p id="p1score-total">0</p>
             <p id="p2score-total">0</p>
           </div>

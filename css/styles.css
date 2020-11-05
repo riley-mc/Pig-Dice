@@ -19,3 +19,7 @@ h3 {
   text-align: center;
   float: center;
 }
+
+.container {
+  position: center;
+}
